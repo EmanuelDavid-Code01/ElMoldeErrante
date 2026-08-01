@@ -157,3 +157,52 @@ Bootstrap será utilizado como base visual y luego personalizado mediante CSS.
 ⬜ Backend del formulario.
 
 ⬜ Responsive final.
+
+# Sesión 2
+
+📅 Fecha
+
+01/08/2026
+
+## Objetivos
+
+- Completar la estructura del Frontend.
+
+## Tareas realizadas
+
+✔ Hero.
+
+✔ Sobre Nosotros.
+
+✔ Servicios.
+
+✔ Galería.
+
+✔ Formulario de contacto.
+
+✔ Footer.
+
+✔ Organización definitiva mediante includes.
+
+✔ Integración completa del Frontend.
+
+---
+
+# Commits
+
+✔ Completar estructura base del frontend con secciones principales
+
+---
+
+# Estado del proyecto
+
+Frontend Base: ✅ COMPLETADO
+
+---
+
+# Próximo objetivo
+
+- Revisar enlaces.
+- Revisar imágenes.
+- Ajustar detalles responsive.
+- Preparar la estructura para comenzar el backend.
