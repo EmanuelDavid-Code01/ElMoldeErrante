@@ -21,6 +21,32 @@ body{
     color:#222;
 
 }
+.display-3{
+
+    line-height:1.1;
+
+}
+.btn{
+
+    border-radius:12px;
+
+    padding:12px 28px;
+
+    font-weight:600;
+
+}
+.btn-primary{
+
+    background:var(--primary);
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-hover);
+
+}
 section{
     padding: 100px 0;
 }
@@ -31,4 +57,69 @@ h1{
 
 p{
     line-height:1.8;
+}
+/* ===========================
+   VARIABLES
+=========================== */
+
+:root{
+
+    --primary:#F97316;
+    --primary-hover:#EA580C;
+
+    --dark:#212529;
+
+    --light:#F8F9FA;
+
+    --white:#FFFFFF;
+
+    --text:#495057;
+
+}
+/* ===========================
+   HERO
+=========================== */
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.hero-image img{
+
+    max-width:100%;
+
+    transition:.4s;
+
+}
+
+.hero-image img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.section-title{
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.section-subtitle{
+
+    color:var(--text);
+
+    margin-bottom:50px;
+
 }

@@ -3,13 +3,13 @@
     <div class="container">
 
         <!-- Logo -->
-        <a class="navbar-brand fw-bold" href="#inicio">
+       <a class="navbar-brand fw-bold d-flex align-items-center" href="#inicio">
 
-            <i class="bi bi-box-seam-fill text-warning"></i>
+    <i class="bi bi-box-seam-fill fs-3 me-2"></i>
 
-            El Molde Errante
+    <span>El Molde Errante</span>
 
-        </a>
+</a>
 
         <!-- Botón hamburguesa -->
         <button
