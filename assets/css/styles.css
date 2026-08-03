@@ -173,3 +173,10 @@ section {
 .card:hover{
     transform:translateY(-8px);
 }
+
+/* NavBar */
+.logo-navbar {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}

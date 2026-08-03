@@ -3,13 +3,15 @@
     <div class="container">
 
         <!-- Logo -->
-       <a class="navbar-brand fw-bold d-flex align-items-center" href="#inicio">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#inicio">
 
-    <i class="bi bi-box-seam-fill fs-3 me-2"></i>
+            <img src="assets/img/logo/SelloCircular.png"
+                 alt="El Molde Errante"
+                 class="logo-navbar me-2">
 
-    <span>El Molde Errante</span>
+            <span>El Molde Errante</span>
 
-</a>
+        </a>
 
         <!-- Botón hamburguesa -->
         <button
