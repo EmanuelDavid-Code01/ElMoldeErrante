@@ -14,7 +14,7 @@
 
             <div class="col-lg-8">
 
-                <form action="#" method="POST">
+                <form action="./php/contacto.php" method="POST">
 
                     <div class="mb-3">
 
@@ -23,6 +23,7 @@
                         <input
                             type="text"
                             class="form-control"
+                            name="nombre"
                             placeholder="Ingrese su nombre">
 
                     </div>
@@ -34,6 +35,7 @@
                         <input
                             type="email"
                             class="form-control"
+                            name="email"
                             placeholder="Ingrese su email">
 
                     </div>
@@ -44,15 +46,14 @@
 
                         <textarea
                             class="form-control"
+                            name="mensaje"
                             rows="5"
                             placeholder="Escriba su consulta"></textarea>
 
                     </div>
 
-                    <button class="btn btn-primary">
-
+                    <button type="submit" class="btn btn-primary">
                         Enviar consulta
-
                     </button>
 
                 </form>

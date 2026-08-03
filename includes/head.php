@@ -25,6 +25,6 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- CSS propio -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css?v=<?php echo filemtime('./assets/css/styles.css'); ?>">
 
 </head>

@@ -40,7 +40,7 @@
     <div class="hero-image">
 
         <img
-            src="./assets/img/hero/LogoM.png"
+            src="./assets/img/hero/LOGOME.png"
             class="img-fluid"
             alt="Impresión 3D">
 

@@ -6,7 +6,7 @@
 
             <div class="col-lg-6">
 
-                <img src="./assets/img/about/about.png"
+                <img src="./assets/img/services/img1.png"
                      class="img-fluid rounded"
                      alt="Sobre Nosotros">
 
