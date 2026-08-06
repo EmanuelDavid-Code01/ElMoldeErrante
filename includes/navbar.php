@@ -5,7 +5,7 @@
         <!-- Logo -->
         <a class="navbar-brand fw-bold d-flex align-items-center" href="#inicio">
 
-            <img src="assets/img/logo/SelloCircular.png"
+            <img src="assets/img/logo/LogoBlanco.png"
                  alt="El Molde Errante"
                  class="logo-navbar me-2">
 

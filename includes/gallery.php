@@ -26,7 +26,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Adorno Navideño
             </h5>
 
             <p class="card-text">
@@ -60,7 +60,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Contenedores de puzzles
             </h5>
 
             <p class="card-text">
@@ -94,7 +94,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Guerreras K-POP
             </h5>
 
             <p class="card-text">
@@ -117,7 +117,7 @@
             <div class="col-md-4">
     <div class="card h-100 shadow-sm border-0">
 
-        <img src="./assets/img/gallery/img4.jpeg"
+        <img src="./assets/img/gallery/img7.jpeg"
             class="card-img-top"
             alt="Trabajo 1">
 
@@ -128,7 +128,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Collibri 3D
             </h5>
 
             <p class="card-text">
@@ -162,7 +162,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Mate Hexagonal
             </h5>
 
             <p class="card-text">
@@ -194,7 +194,7 @@
             </span>
 
             <h5 class="card-title">
-                Nombre del proyecto
+                Lapicero tematico 
             </h5>
 
             <p class="card-text">
