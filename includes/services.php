@@ -1,85 +1,63 @@
-<section id="servicios" class="py-5">
 
+<?php
+require_once __DIR__ . "/../php/conexion.php";
+
+$sql = "SELECT id, nombre, descripcion, icono
+        FROM servicios
+        WHERE activo = 1
+        ORDER BY id ASC";
+
+$resultado = $conexion->query($sql);
+?>
+
+<section id="servicios" class="py-5">
     <div class="container">
 
         <div class="text-center mb-5">
-
             <h2>Nuestros Servicios</h2>
-
             <p>Soluciones adaptadas a cada necesidad.</p>
-
         </div>
 
         <div class="row g-4">
 
-            <div class="col-md-4">
+            <?php if ($resultado && $resultado->num_rows > 0): ?>
 
-                <div class="card h-100">
+                <?php while ($servicio = $resultado->fetch_assoc()): ?>
 
-                    <div class="card-body text-center">
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
 
-                        <i class="bi bi-box fs-1"></i>
+                                <i class="bi <?= htmlspecialchars($servicio['icono'], ENT_QUOTES, 'UTF-8') ?> fs-1"></i>
 
-                        <h4 class="mt-3">
-                            Impresión 3D
-                        </h4>
+                                <h4 class="mt-3">
+                                    <?= htmlspecialchars($servicio['nombre'], ENT_QUOTES, 'UTF-8') ?>
+                                </h4>
 
-                        <p>
-                            Fabricación de piezas personalizadas con distintos materiales.
-                        </p>
+                                <p>
+                                    <?= htmlspecialchars($servicio['descripcion'], ENT_QUOTES, 'UTF-8') ?>
+                                </p>
 
+                            </div>
+                        </div>
                     </div>
 
+                <?php endwhile; ?>
+
+            <?php else: ?>
+
+                <div class="col-12 text-center">
+                    <p>En este momento no hay servicios disponibles.</p>
                 </div>
 
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="card h-100">
-
-                    <div class="card-body text-center">
-
-                        <i class="bi bi-pencil-square fs-1"></i>
-
-                        <h4 class="mt-3">
-                            Diseño 3D
-                        </h4>
-
-                        <p>
-                            Modelado de piezas listas para impresión.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="card h-100">
-
-                    <div class="card-body text-center">
-
-                        <i class="bi bi-gear fs-1"></i>
-
-                        <h4 class="mt-3">
-                            Prototipos
-                        </h4>
-
-                        <p>
-                            Desarrollo de prototipos para proyectos personales y comerciales.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
+            <?php endif; ?>
 
         </div>
-
     </div>
-
 </section>
+
+<?php
+if ($resultado instanceof mysqli_result) {
+    $resultado->free();
+}
+?>
